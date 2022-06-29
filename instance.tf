@@ -1,7 +1,7 @@
 resource "aws_instance" "myweb" {
-  ami           = "ami-0ab0bbbd329f565e6"
+  ami           = "ami-02d1e544b84bf7502 "
   instance_type = "t2.micro"
-  key_name = "n-virginia.pem"
+  key_name = "ohio.pem"
   tags = {
     Name = "demo"
   }
